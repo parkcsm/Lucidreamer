@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.idealist.www.myapplication2.dream_post.dream_post_post">
+
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/lucid6"
+        android:id="@+id/iv_post"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <EditText
+        android:id="@+id/edt_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="사진과 함께 하고싶은 말을 입력하세요!" />
+
+
+
+    <Button
+
+        android:id="@+id/btn_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="게시물 등록" />
+
+
+</LinearLayout>
+

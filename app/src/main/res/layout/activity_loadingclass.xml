@@ -1,0 +1,1866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.idealist.www.myapplication2.loadingclass">
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/passing62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="ㅡ"
+            android:textColor="#fa0303" />
+
+        <TextView
+            android:id="@+id/passing63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="ㅡ"
+            android:textColor="#fafa03" />
+
+        <TextView
+            android:id="@+id/passing64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="ㅡ"
+            android:textColor="#fa6203" />
+
+        <TextView
+            android:id="@+id/passing65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="ㅡ"
+            android:textColor="#18fa03" />
+
+        <TextView
+            android:id="@+id/passing66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="ㅡ"
+            android:textColor="#fa6203" />
+
+        <TextView
+            android:id="@+id/passing67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="ㅡ"
+            android:textColor="#fa0303" />
+
+        <TextView
+            android:id="@+id/passing190"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="ㅡ" />
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/lucidreamer"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/lucid3"
+            android:gravity="center"
+            android:text="Lucidreamer"
+            android:textColor="#080808"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="ㅡ"
+                android:textColor="#fa03d9" />
+
+            <TextView
+                android:id="@+id/passing20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa6203" />
+
+            <TextView
+                android:id="@+id/passing21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa03d9" />
+
+            <TextView
+                android:id="@+id/passing22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0318fa" />
+
+            <TextView
+                android:id="@+id/passing23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing183"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0318fa" />
+
+            <TextView
+                android:id="@+id/passing27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0d0d0d" />
+
+            <TextView
+                android:id="@+id/passing29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#8f03fa" />
+
+            <TextView
+                android:id="@+id/passing30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fafa03" />
+
+            <TextView
+                android:id="@+id/passing184"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="ㅡ"
+                android:textColor="#0d0d0d" />
+
+            <TextView
+                android:id="@+id/passing32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa6203" />
+
+            <TextView
+                android:id="@+id/passing33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa03d9" />
+
+            <TextView
+                android:id="@+id/passing35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0318fa" />
+
+            <TextView
+                android:id="@+id/passing36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing185"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0318fa" />
+
+            <TextView
+                android:id="@+id/passing6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing180"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="82dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0d0d0d" />
+
+            <TextView
+                android:id="@+id/passing12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing181"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="102dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="ㅡ"
+                android:textColor="#be03fc" />
+
+            <TextView
+                android:id="@+id/passing14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fafa03" />
+
+            <TextView
+                android:id="@+id/passing17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa03d9" />
+
+            <TextView
+                android:id="@+id/passing18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing182"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="122dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing43"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="ㅡ"
+                android:textColor="#fa03d9" />
+
+            <TextView
+                android:id="@+id/passing44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0d0d0d" />
+
+            <TextView
+                android:id="@+id/passing46"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#be03fc" />
+
+            <TextView
+                android:id="@+id/passing47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0318fa" />
+
+            <TextView
+                android:id="@+id/passing187"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="142dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#be03fc" />
+
+            <TextView
+                android:id="@+id/passing50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa6203" />
+
+            <TextView
+                android:id="@+id/passing52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa6203" />
+
+            <TextView
+                android:id="@+id/passing54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa03d9" />
+
+            <TextView
+                android:id="@+id/passing188"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="162dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="ㅡ"
+                android:textColor="#fa6203" />
+
+            <TextView
+                android:id="@+id/passing56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fafa03" />
+
+            <TextView
+                android:id="@+id/passing57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0318fa" />
+
+            <TextView
+                android:id="@+id/passing59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fafa03" />
+
+            <TextView
+                android:id="@+id/passing60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:text="ㅡ"
+                android:textColor="#fa6203" />
+
+            <TextView
+                android:id="@+id/passing189"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="182dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing166"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="ㅡ"
+                android:textColor="#0318fa" />
+
+            <TextView
+                android:id="@+id/passing167"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#0d0d0d" />
+
+            <TextView
+                android:id="@+id/passing168"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa6203" />
+
+            <TextView
+                android:id="@+id/passing300"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa03d9" />
+
+            <TextView
+                android:id="@+id/passing170"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing171"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#fa6203" />
+
+            <TextView
+                android:id="@+id/passing172"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="202dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing173"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="ㅡ"
+                android:textColor="#fa03d9" />
+
+            <TextView
+                android:id="@+id/passing174"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing175"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing176"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fafa03" />
+
+            <TextView
+                android:id="@+id/passing177"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#8f03fa" />
+
+            <TextView
+                android:id="@+id/passing178"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#0318fa" />
+
+            <TextView
+                android:id="@+id/passing179"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="ㅡ"
+                android:textColor="#0d0d0d" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="L      O      A      D      I      N      G"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+
+        <ImageView
+            android:id="@+id/flying"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/lucid4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="ㅡ"
+                android:textColor="#fa6203" />
+
+            <TextView
+                android:id="@+id/passing69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa03d9" />
+
+            <TextView
+                android:id="@+id/passing70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0318fa" />
+
+            <TextView
+                android:id="@+id/passing71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:textColor="#fafa03"
+                android:id="@+id/passing72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#8f03fa" />
+
+
+            <TextView
+                android:id="@+id/passing74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing191"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="ㅡ"
+                android:textColor="#0318fa" />
+
+            <TextView
+                android:id="@+id/passing76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa6203" />
+
+            <TextView
+                android:id="@+id/passing77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing78"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa03d9" />
+
+            <TextView
+                android:id="@+id/passing80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#fafa03" />
+
+
+            <TextView
+                android:id="@+id/passing81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="ㅡ"
+                android:textColor="#fa6203" />
+
+            <TextView
+                android:id="@+id/passing192"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="#fafa03"
+                android:id="@+id/passing82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa03d9" />
+
+            <TextView
+                android:id="@+id/passing84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0318fa" />
+
+            <TextView
+                android:id="@+id/passing85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#8f03fa" />
+
+            <TextView
+                android:textColor="#fafa03"
+                android:id="@+id/passing86"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing88"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing193"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing89"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:textColor="#fafa03"
+                android:id="@+id/passing90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing91"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing92"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fafa03" />
+
+            <TextView
+                android:id="@+id/passing93"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing94"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#fafa03"
+                android:id="@+id/passing95"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing194"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="82dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing96"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing97"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing98"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa6203" />
+
+            <TextView
+                android:id="@+id/passing99"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#be03fc" />
+
+            <TextView
+                android:id="@+id/passing101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#be03fc" />
+
+            <TextView
+                android:id="@+id/passing102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing195"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="102dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing103"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="ㅡ"
+                android:textColor="#8f03fa" />
+
+            <TextView
+                android:id="@+id/passing104"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing105"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#8f03fa" />
+
+            <TextView
+                android:id="@+id/passing106"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing107"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing108"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing109"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing196"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="122dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing110"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0318fa" />
+
+            <TextView
+                android:id="@+id/passing112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fafa03" />
+
+            <TextView
+                android:id="@+id/passing113"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#8f03fa" />
+
+            <TextView
+                android:id="@+id/passing114"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing115"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#0d0d0d" />
+
+            <TextView
+                android:id="@+id/passing116"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing197"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="142dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing117"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="ㅡ"
+                android:textColor="#fa6203" />
+
+            <TextView
+                android:id="@+id/passing118"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing119"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing120"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fafa03" />
+
+            <TextView
+                android:id="@+id/passing121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0d0d0d" />
+
+            <TextView
+                android:id="@+id/passing122"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:textColor="#fa6203"
+                android:id="@+id/passing123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing198"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="162dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing131"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="ㅡ"
+                android:textColor="#0d0d0d" />
+
+            <TextView
+                android:id="@+id/passing132"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#fafa03" />
+
+            <TextView
+                android:id="@+id/passing133"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0d0d0d" />
+
+            <TextView
+                android:id="@+id/passing134"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fafa03" />
+
+            <TextView
+                android:id="@+id/passing135"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0318fa" />
+
+            <TextView
+                android:id="@+id/passing136"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing137"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="ㅡ"
+                android:textColor="#fafa03" />
+
+            <TextView
+                android:id="@+id/passing200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="182dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing138"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing139"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#fa03d9" />
+
+            <TextView
+                android:id="@+id/passing140"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0318fa" />
+
+            <TextView
+                android:id="@+id/passing141"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing142"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0d0d0d" />
+
+            <TextView
+                android:id="@+id/passing143"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#fa6203" />
+
+            <TextView
+                android:textColor="#fa6203"
+                android:id="@+id/passing144"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing201"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="202dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing124"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#fafa03" />
+
+            <TextView
+                android:id="@+id/passing125"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing126"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#8f03fa" />
+
+            <TextView
+                android:id="@+id/passing127"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0318fa" />
+
+            <TextView
+                android:id="@+id/passing128"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#18fa03" />
+
+            <TextView
+                android:id="@+id/passing129"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#8f03fa" />
+
+            <TextView
+                android:id="@+id/passing130"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#0318fa" />
+
+            <TextView
+                android:id="@+id/passing199"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="222dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/passing145"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="ㅡ"
+                android:textColor="#fa03d9" />
+
+            <TextView
+                android:id="@+id/passing146"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#fa6203" />
+
+            <TextView
+                android:id="@+id/passing147"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa0303" />
+
+            <TextView
+                android:id="@+id/passing148"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa6203" />
+
+            <TextView
+                android:id="@+id/passing149"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#0d0d0d" />
+
+            <TextView
+                android:id="@+id/passing150"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ"
+                android:textColor="#fafa03" />
+
+            <TextView
+                android:id="@+id/passing151"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="ㅡ"
+                android:textColor="#be03fc" />
+
+            <TextView
+                android:id="@+id/passing202"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ"
+                android:textColor="#fa6603"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="242dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="#be03fc"
+                android:id="@+id/passing152"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#fafa03"
+                android:id="@+id/passing153"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#fa0303"
+                android:id="@+id/passing154"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#fa6603"
+                android:id="@+id/passing155"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#fafa03"
+                android:id="@+id/passing156"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#0318fa"
+                android:id="@+id/passing157"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#fa0303"
+                android:id="@+id/passing158"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#fafa03"
+                android:id="@+id/passing203"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="262dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="#fa0303"
+                android:id="@+id/passing159"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#fafa03"
+                android:id="@+id/passing160"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#0318fa"
+                android:id="@+id/passing161"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:id="@+id/passing162"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#fa03d9"
+                android:id="@+id/passing163"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#fafa03"
+                android:id="@+id/passing164"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#fa0303"
+                android:id="@+id/passing165"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#0318fa"
+                android:id="@+id/passing204"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="282dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="#fafa03"
+                android:id="@+id/passing37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#fa6603"
+                android:id="@+id/passing38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#0bfa03"
+                android:id="@+id/passing39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#fa0303"
+                android:id="@+id/passing40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#fafa03"
+                android:id="@+id/passing41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#0341fa"
+                android:id="@+id/passing42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+
+            <TextView
+                android:textColor="#fa03d9"
+                android:id="@+id/passing186"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="ㅡ" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

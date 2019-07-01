@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.idealist.www.myapplication2.dream_diary.dream_diary_list">
+
+    <TextView
+        android:textSize="14sp"
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        android:text="1. 잠든시간과 깬 시간을 선택해주세요."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/bolder_style4"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="잠든시간"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/btn_getbed_time"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/bolder_style4"
+            android:gravity="center"
+            android:text="( 클릭 )"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="10dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/bolder_style4"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="깬 시간" />
+
+        <TextView
+            android:id="@+id/btn_wakeup_time"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:text="( 클릭 )"
+            android:background="@drawable/bolder_style4"
+            android:layout_marginLeft="45dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:padding="5dp"
+            android:background="@drawable/bolder_style3"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="실제 수면시간"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:background="@drawable/bolder_style3"
+            android:padding="5dp"
+            android:id="@+id/cal_real_sleep_duration"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:textSize="14sp"
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        android:text="3. 꿈 내용을 기술해주세요. (자각몽 여부 ,  장소,  내  능력 등)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:background="@drawable/bolder_style5"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="일기장에 등록"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

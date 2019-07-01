@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_weight="0.7"
+                android:id="@+id/cvrv_id"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:lines="1"
+                android:textColor="#050504" />
+
+            <TextView
+                android:maxLength="19"
+                android:textSize="10sp"
+                android:id="@+id/comment_time"
+                android:layout_weight="1"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:lines="1"
+                android:textColor="#050504" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:textColor="#050504"
+            android:id="@+id/cvrv_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLength="55"
+            android:maxLines="3" />
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/comment_change"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="39dp"
+        android:layout_gravity="right"
+        android:layout_height="25dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/edit5"
+        app:civ_border_width="0dp"
+        app:civ_border_color="#000000" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/comment_delete"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:src="@drawable/bin3"
+        app:civ_border_width="0dp"
+        app:civ_border_color="#000000"
+        android:layout_gravity="right"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="16dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+
+</FrameLayout>

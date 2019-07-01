@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="#5f746b"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="본 어플(Lucidreamer)에서는 꿈일기 남기기, 댓글달기, 꿈알람 설정등의 기능을 무료로 이용하실 수 있습니다."/>
+
+
+    <TextView
+        android:textColor="#5f746b"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="단 해당 기능을 이용하기 위해서는 로그인하셔야 하며, 로그인은 회원가입후 이용 가능합니다."/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lucid6"
+        />
+</LinearLayout>

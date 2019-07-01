@@ -1,0 +1,464 @@
+package com.idealist.www.myapplication2;
+
+import android.content.Intent;
+import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+public class loadingclass extends AppCompatActivity {
+
+
+    TextView passing1, passing2, passing3, passing4, passing5, passing6, passing7, passing8, passing9, passing10, passing11, passing12, passing13, passing14, passing15, passing16, passing17, passing18, passing19,
+            passing20, passing21, passing22, passing23, passing24, passing25, passing26, passing27, passing28, passing29, passing30, passing31, passing32, passing33, passing34, passing35, passing36, passing37, passing38, passing39,
+            passing40, passing41, passing42, passing43, passing44, passing45, passing46, passing47, passing48, passing49, passing50, passing51, passing52, passing53, passing54, passing55, passing56, passing57, passing58, passing59,
+            passing60, passing61, passing62, passing63, passing64, passing65, passing66, passing67, passing68, passing69, passing70, passing71, passing72, passing73, passing74, passing75, passing76, passing77, passing78, passing79,
+            passing80, passing81, passing82, passing83, passing84, passing85, passing86, passing87, passing88, passing89, passing90, passing91, passing92, passing93, passing94, passing95, passing96, passing97, passing98, passing99,
+            passing100, passing101, passing102, passing103, passing104, passing105, passing106, passing107, passing108, passing109, passing110, passing111, passing112, passing113, passing114, passing115, passing116, passing117, passing118, passing119,
+            passing120, passing121, passing122, passing123, passing124, passing125, passing126, passing127, passing128, passing129, passing130, passing131, passing132, passing133, passing134, passing135, passing136, passing137, passing138, passing139,
+            passing140, passing141, passing142, passing143, passing144, passing145, passing146, passing147, passing148, passing149, passing150, passing151, passing152, passing153, passing154, passing155, passing156, passing157, passing158, passing159,
+            passing160, passing161, passing162, passing163, passing164, passing165, passing166, passing167, passing168, passing169, passing170, passing171, passing172, passing173, passing174, passing175, passing176, passing177, passing178, passing179,
+            passing180, passing181, passing182, passing183, passing184, passing185, passing186, passing187, passing188, passing189, passing190, passing191, passing192, passing193, passing194, passing195, passing196, passing197, passing198, passing199,
+            passing200, passing201, passing202, passing203, passing204, passing300;
+
+    ImageView flying;
+    TextView flying2;
+
+
+    private Animation anim0;
+    private Animation anim;
+    private Animation anim2;
+    private Animation anim3;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        android.support.v7.app.ActionBar ab = getSupportActionBar();
+        ab.hide();
+
+        setContentView(R.layout.activity_loadingclass);
+        initView();
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(getBaseContext(), MainActivity.class);  // Intent 선언
+                startActivity(intent);   // Intent 시작
+//                overridePendingTransition(R.anim.anim_slide_in_right, R.anim.anim_slide_out_left);
+                finish();
+            }
+        }, 3500);  // 로딩화면 시간
+    }
+
+    private void initView() {
+        anim0 = AnimationUtils.loadAnimation(this, R.anim.anim_translate_updown2);
+        anim = AnimationUtils.loadAnimation(this, R.anim.anim_translate_updown);
+        anim2 = AnimationUtils.loadAnimation(this, R.anim.anim_translate_left);
+        anim3 = AnimationUtils.loadAnimation(this, R.anim.anim_translate_left2);
+
+
+        flying = (ImageView) findViewById(R.id.flying);
+        flying.setAnimation(anim);
+        flying2 = findViewById(R.id.lucidreamer);
+        flying2.setAnimation(anim0);
+        passing();
+
+    }
+
+
+    private void passing() {
+        passing1 = findViewById(R.id.passing);
+        passing2 = findViewById(R.id.passing2);
+        passing3 = findViewById(R.id.passing3);
+        passing4 = findViewById(R.id.passing4);
+        passing5 = findViewById(R.id.passing5);
+        passing6 = findViewById(R.id.passing6);
+        passing7 = findViewById(R.id.passing7);
+        passing8 = findViewById(R.id.passing8);
+        passing9 = findViewById(R.id.passing9);
+        passing10 = findViewById(R.id.passing10);
+        passing11 = findViewById(R.id.passing11);
+        passing12 = findViewById(R.id.passing12);
+        passing13 = findViewById(R.id.passing13);
+        passing14 = findViewById(R.id.passing14);
+        passing15 = findViewById(R.id.passing15);
+        passing16 = findViewById(R.id.passing16);
+        passing17 = findViewById(R.id.passing17);
+        passing18 = findViewById(R.id.passing18);
+        passing19 = findViewById(R.id.passing19);
+        passing20 = findViewById(R.id.passing20);
+        passing21 = findViewById(R.id.passing21);
+        passing22 = findViewById(R.id.passing22);
+        passing23 = findViewById(R.id.passing23);
+        passing24 = findViewById(R.id.passing24);
+        passing25 = findViewById(R.id.passing25);
+        passing26 = findViewById(R.id.passing26);
+        passing27 = findViewById(R.id.passing27);
+        passing28 = findViewById(R.id.passing28);
+        passing29 = findViewById(R.id.passing29);
+        passing30 = findViewById(R.id.passing30);
+        passing31 = findViewById(R.id.passing31);
+        passing32 = findViewById(R.id.passing32);
+        passing33 = findViewById(R.id.passing33);
+        passing34 = findViewById(R.id.passing34);
+        passing35 = findViewById(R.id.passing35);
+        passing36 = findViewById(R.id.passing36);
+        passing37 = findViewById(R.id.passing37);
+        passing38 = findViewById(R.id.passing38);
+        passing39 = findViewById(R.id.passing39);
+        passing40 = findViewById(R.id.passing40);
+        passing41 = findViewById(R.id.passing41);
+        passing42 = findViewById(R.id.passing42);
+        passing43 = findViewById(R.id.passing43);
+        passing44 = findViewById(R.id.passing44);
+        passing45 = findViewById(R.id.passing45);
+        passing46 = findViewById(R.id.passing46);
+        passing47 = findViewById(R.id.passing47);
+        passing48 = findViewById(R.id.passing48);
+        passing49 = findViewById(R.id.passing49);
+        passing50 = findViewById(R.id.passing50);
+        passing51 = findViewById(R.id.passing51);
+        passing52 = findViewById(R.id.passing52);
+        passing53 = findViewById(R.id.passing53);
+        passing54 = findViewById(R.id.passing54);
+        passing55 = findViewById(R.id.passing55);
+        passing56 = findViewById(R.id.passing56);
+        passing57 = findViewById(R.id.passing57);
+        passing58 = findViewById(R.id.passing58);
+        passing59 = findViewById(R.id.passing59);
+        passing60 = findViewById(R.id.passing60);
+        passing61 = findViewById(R.id.passing61);
+        passing62 = findViewById(R.id.passing62);
+        passing63 = findViewById(R.id.passing63);
+        passing64 = findViewById(R.id.passing64);
+        passing65 = findViewById(R.id.passing65);
+        passing66 = findViewById(R.id.passing66);
+        passing67 = findViewById(R.id.passing67);
+        passing68 = findViewById(R.id.passing68);
+        passing69 = findViewById(R.id.passing69);
+        passing70 = findViewById(R.id.passing70);
+        passing71 = findViewById(R.id.passing71);
+        passing72 = findViewById(R.id.passing72);
+        passing73 = findViewById(R.id.passing73);
+        passing74 = findViewById(R.id.passing74);
+        passing75 = findViewById(R.id.passing75);
+        passing76 = findViewById(R.id.passing76);
+        passing77 = findViewById(R.id.passing77);
+        passing78 = findViewById(R.id.passing78);
+        passing79 = findViewById(R.id.passing79);
+        passing80 = findViewById(R.id.passing80);
+        passing81 = findViewById(R.id.passing81);
+        passing82 = findViewById(R.id.passing82);
+        passing83 = findViewById(R.id.passing83);
+        passing84 = findViewById(R.id.passing84);
+        passing85 = findViewById(R.id.passing85);
+        passing86 = findViewById(R.id.passing86);
+        passing87 = findViewById(R.id.passing87);
+        passing88 = findViewById(R.id.passing88);
+        passing89 = findViewById(R.id.passing89);
+        passing90 = findViewById(R.id.passing90);
+        passing91 = findViewById(R.id.passing91);
+        passing92 = findViewById(R.id.passing92);
+        passing93 = findViewById(R.id.passing93);
+        passing94 = findViewById(R.id.passing94);
+        passing95 = findViewById(R.id.passing95);
+        passing96 = findViewById(R.id.passing96);
+        passing97 = findViewById(R.id.passing97);
+        passing98 = findViewById(R.id.passing98);
+        passing99 = findViewById(R.id.passing99);
+        passing100 = findViewById(R.id.passing100);
+        passing101 = findViewById(R.id.passing101);
+        passing102 = findViewById(R.id.passing102);
+        passing103 = findViewById(R.id.passing103);
+        passing104 = findViewById(R.id.passing104);
+        passing105 = findViewById(R.id.passing105);
+        passing106 = findViewById(R.id.passing106);
+        passing107 = findViewById(R.id.passing107);
+        passing108 = findViewById(R.id.passing108);
+        passing109 = findViewById(R.id.passing109);
+        passing110 = findViewById(R.id.passing110);
+        passing111 = findViewById(R.id.passing111);
+        passing112 = findViewById(R.id.passing112);
+        passing113 = findViewById(R.id.passing113);
+        passing114 = findViewById(R.id.passing114);
+        passing115 = findViewById(R.id.passing115);
+        passing116 = findViewById(R.id.passing116);
+        passing117 = findViewById(R.id.passing117);
+        passing118 = findViewById(R.id.passing118);
+        passing119 = findViewById(R.id.passing119);
+        passing120 = findViewById(R.id.passing120);
+        passing121 = findViewById(R.id.passing121);
+        passing122 = findViewById(R.id.passing122);
+        passing123 = findViewById(R.id.passing123);
+        passing124 = findViewById(R.id.passing124);
+        passing125 = findViewById(R.id.passing125);
+        passing126 = findViewById(R.id.passing126);
+        passing127 = findViewById(R.id.passing127);
+        passing128 = findViewById(R.id.passing128);
+        passing129 = findViewById(R.id.passing129);
+        passing130 = findViewById(R.id.passing130);
+        passing131 = findViewById(R.id.passing131);
+        passing132 = findViewById(R.id.passing132);
+        passing133 = findViewById(R.id.passing133);
+        passing134 = findViewById(R.id.passing134);
+        passing135 = findViewById(R.id.passing135);
+        passing136 = findViewById(R.id.passing136);
+        passing137 = findViewById(R.id.passing137);
+        passing138 = findViewById(R.id.passing138);
+        passing139 = findViewById(R.id.passing139);
+        passing140 = findViewById(R.id.passing140);
+        passing141 = findViewById(R.id.passing141);
+        passing142 = findViewById(R.id.passing142);
+        passing143 = findViewById(R.id.passing143);
+        passing144 = findViewById(R.id.passing144);
+        passing145 = findViewById(R.id.passing145);
+        passing146 = findViewById(R.id.passing146);
+        passing147 = findViewById(R.id.passing147);
+        passing148 = findViewById(R.id.passing148);
+        passing149 = findViewById(R.id.passing149);
+        passing150 = findViewById(R.id.passing150);
+        passing151 = findViewById(R.id.passing151);
+        passing152 = findViewById(R.id.passing152);
+        passing153 = findViewById(R.id.passing153);
+        passing154 = findViewById(R.id.passing154);
+        passing155 = findViewById(R.id.passing155);
+        passing156 = findViewById(R.id.passing156);
+        passing157 = findViewById(R.id.passing157);
+        passing158 = findViewById(R.id.passing158);
+        passing159 = findViewById(R.id.passing159);
+        passing160 = findViewById(R.id.passing160);
+        passing161 = findViewById(R.id.passing161);
+        passing162 = findViewById(R.id.passing162);
+        passing163 = findViewById(R.id.passing163);
+        passing164 = findViewById(R.id.passing164);
+        passing165 = findViewById(R.id.passing165);
+        passing166 = findViewById(R.id.passing166);
+        passing167 = findViewById(R.id.passing167);
+        passing168 = findViewById(R.id.passing168);
+        passing300 = findViewById(R.id.passing300);
+        passing170 = findViewById(R.id.passing170);
+        passing171 = findViewById(R.id.passing171);
+        passing172 = findViewById(R.id.passing172);
+        passing173 = findViewById(R.id.passing173);
+        passing174 = findViewById(R.id.passing174);
+        passing175 = findViewById(R.id.passing175);
+        passing176 = findViewById(R.id.passing176);
+        passing177 = findViewById(R.id.passing177);
+        passing178 = findViewById(R.id.passing178);
+        passing179 = findViewById(R.id.passing179);
+        passing180 = findViewById(R.id.passing180);
+
+        passing181 = findViewById(R.id.passing181);
+        passing182 = findViewById(R.id.passing182);
+        passing183 = findViewById(R.id.passing183);
+        passing184 = findViewById(R.id.passing184);
+        passing185 = findViewById(R.id.passing185);
+        passing186 = findViewById(R.id.passing186);
+        passing187 = findViewById(R.id.passing187);
+        passing188 = findViewById(R.id.passing188);
+        passing159 = findViewById(R.id.passing159);
+        passing190 = findViewById(R.id.passing190);
+        passing191 = findViewById(R.id.passing191);
+        passing192 = findViewById(R.id.passing192);
+        passing193 = findViewById(R.id.passing193);
+        passing194 = findViewById(R.id.passing194);
+        passing195 = findViewById(R.id.passing195);
+        passing196 = findViewById(R.id.passing196);
+        passing197 = findViewById(R.id.passing197);
+        passing198 = findViewById(R.id.passing198);
+        passing169 = findViewById(R.id.passing199);
+        passing200 = findViewById(R.id.passing200);
+        passing201 = findViewById(R.id.passing201);
+        passing202 = findViewById(R.id.passing202);
+        passing203 = findViewById(R.id.passing203);
+        passing204 = findViewById(R.id.passing204);
+
+        passing1.setAnimation(anim2);
+        passing2.setAnimation(anim2);
+        passing3.setAnimation(anim2);
+        passing4.setAnimation(anim2);
+        passing5.setAnimation(anim2);
+        passing6.setAnimation(anim3);
+        passing7.setAnimation(anim3);
+        passing8.setAnimation(anim3);
+        passing9.setAnimation(anim3);
+        passing10.setAnimation(anim3);
+        passing11.setAnimation(anim3);
+        passing12.setAnimation(anim3);
+        passing13.setAnimation(anim2);
+        passing14.setAnimation(anim2);
+        passing15.setAnimation(anim2);
+        passing16.setAnimation(anim2);
+        passing17.setAnimation(anim2);
+        passing18.setAnimation(anim2);
+        passing19.setAnimation(anim3);
+        passing20.setAnimation(anim3);
+        passing21.setAnimation(anim3);
+        passing22.setAnimation(anim3);
+        passing23.setAnimation(anim3);
+        passing24.setAnimation(anim3);
+        passing25.setAnimation(anim2);
+        passing26.setAnimation(anim2);
+        passing27.setAnimation(anim3);
+        passing28.setAnimation(anim3);
+        passing29.setAnimation(anim2);
+        passing30.setAnimation(anim2);
+        passing31.setAnimation(anim2);
+        passing32.setAnimation(anim2);
+        passing33.setAnimation(anim3);
+        passing34.setAnimation(anim3);
+        passing35.setAnimation(anim3);
+        passing36.setAnimation(anim3);
+        passing37.setAnimation(anim2);
+        passing38.setAnimation(anim2);
+        passing39.setAnimation(anim2);
+        passing40.setAnimation(anim2);
+        passing41.setAnimation(anim2);
+        passing42.setAnimation(anim2);
+        passing43.setAnimation(anim3);
+        passing44.setAnimation(anim3);
+        passing45.setAnimation(anim3);
+        passing46.setAnimation(anim3);
+        passing47.setAnimation(anim3);
+        passing48.setAnimation(anim3);
+        passing49.setAnimation(anim3);
+        passing50.setAnimation(anim2);
+        passing51.setAnimation(anim2);
+        passing52.setAnimation(anim2);
+        passing53.setAnimation(anim2);
+        passing54.setAnimation(anim2);
+        passing55.setAnimation(anim2);
+        passing56.setAnimation(anim3);
+        passing57.setAnimation(anim2);
+        passing58.setAnimation(anim2);
+        passing59.setAnimation(anim2);
+        passing60.setAnimation(anim2);
+        passing61.setAnimation(anim2);
+        passing62.setAnimation(anim3);
+        passing63.setAnimation(anim3);
+        passing64.setAnimation(anim3);
+        passing65.setAnimation(anim3);
+        passing66.setAnimation(anim3);
+        passing67.setAnimation(anim3);
+        passing68.setAnimation(anim3);
+        passing69.setAnimation(anim3);
+        passing70.setAnimation(anim2);
+        passing71.setAnimation(anim2);
+        passing72.setAnimation(anim2);
+        passing73.setAnimation(anim2);
+        passing74.setAnimation(anim2);
+        passing75.setAnimation(anim2);
+        passing76.setAnimation(anim2);
+        passing77.setAnimation(anim2);
+        passing78.setAnimation(anim2);
+        passing79.setAnimation(anim2);
+        passing80.setAnimation(anim2);
+        passing81.setAnimation(anim2);
+        passing82.setAnimation(anim2);
+        passing83.setAnimation(anim2);
+        passing84.setAnimation(anim2);
+        passing85.setAnimation(anim3);
+        passing86.setAnimation(anim2);
+        passing87.setAnimation(anim3);
+        passing88.setAnimation(anim3);
+        passing89.setAnimation(anim2);
+        passing90.setAnimation(anim2);
+        passing91.setAnimation(anim2);
+        passing92.setAnimation(anim2);
+        passing93.setAnimation(anim2);
+        passing94.setAnimation(anim2);
+        passing95.setAnimation(anim2);
+        passing96.setAnimation(anim2);
+        passing97.setAnimation(anim2);
+        passing98.setAnimation(anim3);
+        passing99.setAnimation(anim2);
+        passing100.setAnimation(anim2);
+        passing101.setAnimation(anim2);
+        passing102.setAnimation(anim2);
+        passing103.setAnimation(anim2);
+        passing104.setAnimation(anim2);
+        passing105.setAnimation(anim3);
+        passing106.setAnimation(anim2);
+        passing107.setAnimation(anim3);
+        passing108.setAnimation(anim2);
+        passing109.setAnimation(anim3);
+        passing110.setAnimation(anim2);
+        passing111.setAnimation(anim2);
+        passing112.setAnimation(anim2);
+        passing113.setAnimation(anim2);
+        passing114.setAnimation(anim2);
+        passing115.setAnimation(anim2);
+        passing116.setAnimation(anim3);
+        passing117.setAnimation(anim2);
+        passing118.setAnimation(anim3);
+        passing119.setAnimation(anim2);
+        passing120.setAnimation(anim2);
+        passing121.setAnimation(anim2);
+        passing122.setAnimation(anim2);
+        passing123.setAnimation(anim2);
+        passing124.setAnimation(anim2);
+        passing125.setAnimation(anim3);
+        passing126.setAnimation(anim2);
+        passing127.setAnimation(anim3);
+        passing128.setAnimation(anim2);
+        passing129.setAnimation(anim3);
+        passing130.setAnimation(anim2);
+        passing131.setAnimation(anim2);
+        passing132.setAnimation(anim2);
+        passing133.setAnimation(anim2);
+        passing134.setAnimation(anim2);
+        passing135.setAnimation(anim2);
+        passing136.setAnimation(anim3);
+        passing137.setAnimation(anim2);
+        passing138.setAnimation(anim3);
+        passing139.setAnimation(anim2);
+        passing140.setAnimation(anim2);
+        passing141.setAnimation(anim2);
+        passing142.setAnimation(anim2);
+        passing143.setAnimation(anim2);
+        passing144.setAnimation(anim2);
+        passing145.setAnimation(anim3);
+        passing146.setAnimation(anim2);
+        passing147.setAnimation(anim3);
+        passing148.setAnimation(anim2);
+        passing149.setAnimation(anim3);
+        passing150.setAnimation(anim2);
+        passing151.setAnimation(anim2);
+        passing152.setAnimation(anim2);
+        passing153.setAnimation(anim2);
+        passing154.setAnimation(anim2);
+        passing155.setAnimation(anim2);
+        passing156.setAnimation(anim3);
+        passing157.setAnimation(anim2);
+        passing158.setAnimation(anim3);
+        passing159.setAnimation(anim2);
+        passing160.setAnimation(anim2);
+        passing161.setAnimation(anim2);
+        passing162.setAnimation(anim2);
+        passing163.setAnimation(anim2);
+        passing164.setAnimation(anim2);
+        passing165.setAnimation(anim3);
+        passing166.setAnimation(anim3);
+        passing167.setAnimation(anim3);
+        passing168.setAnimation(anim3);
+        passing300.setAnimation(anim3);
+        passing170.setAnimation(anim2);
+        passing171.setAnimation(anim2);
+        passing172.setAnimation(anim2);
+        passing173.setAnimation(anim2);
+        passing174.setAnimation(anim2);
+        passing175.setAnimation(anim2);
+        passing176.setAnimation(anim2);
+        passing177.setAnimation(anim2);
+        passing178.setAnimation(anim2);
+        passing179.setAnimation(anim2);
+//        passing180.setAnimation(anim2);passing181.setAnimation(anim2);passing182.setAnimation(anim2);passing183.setAnimation(anim2);passing184.setAnimation(anim2);passing185.setAnimation(anim2);passing186.setAnimation(anim2);passing187.setAnimation(anim2);passing188.setAnimation(anim2);passing189.setAnimation(anim2);
+//        passing190.setAnimation(anim2);passing191.setAnimation(anim2);passing192.setAnimation(anim2);passing193.setAnimation(anim2);passing194.setAnimation(anim2);passing195.setAnimation(anim2);passing196.setAnimation(anim2);passing197.setAnimation(anim2);passing198.setAnimation(anim2);passing199.setAnimation(anim2);
+//        passing200.setAnimation(anim2);passing201.setAnimation(anim2);passing202.setAnimation(anim2);passing203.setAnimation(anim2);passing204.setAnimation(anim2);
+    }
+}

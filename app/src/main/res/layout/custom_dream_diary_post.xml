@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="5dp"
+    android:background="@drawable/bolder_style5"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:textColor="#000000"
+        android:padding="5dp"
+        android:background="@drawable/bolder_style4"
+        android:text="ㅁㅁㅁㅁㅁㅁㅁㅁ"
+        android:layout_margin="10dp"
+        android:layout_width="120dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:id="@+id/tv_content"
+        android:text="ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ"
+        android:maxLength="20"
+        android:textColor="#000000"
+        android:padding="5dp"
+        android:background="@drawable/bolder_style3"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+</LinearLayout>
